@@ -1,0 +1,29 @@
+# OpenDroid Computer Vision, Deep Learning & ROS 2 Host Requirements
+# Recommended Python: >= 3.10
+
+# Computer Vision & Image Processing
+opencv-python>=4.8.0.76
+opencv-contrib-python>=4.8.0.76
+mediapipe>=0.10.9
+pillow>=10.0.0
+
+# Edge AI & Deep Learning Inference
+ultralytics>=8.2.0          # YOLOv8/YOLOv11 for door handle, household object & obstacle detection
+torch>=2.1.0                # CPU / CUDA PyTorch inference backend
+torchvision>=0.16.0
+
+# Numerical Computing & Sensor Fusion
+numpy>=1.24.0
+scipy>=1.11.0
+matplotlib>=3.7.0
+
+# Embedded Serial Communication & IoT Telemetry
+pyserial>=3.5               # Low-latency UART bridge to RMCS-2111 motor controller / ESP32
+paho-mqtt>=1.6.1            # MQTT IoT cloud telemetry & remote commanding
+requests>=2.31.0            # RESTful HTTP API integration
+
+# ROS 2 & Configuration Parsers
+pyyaml>=6.0.1
+catkin_pkg>=0.5.2
+rospkg>=1.5.0
+transforms3d>=0.4.1         # Quaternions, Euler angles & 3D pose transformations

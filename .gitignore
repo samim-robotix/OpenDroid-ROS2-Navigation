@@ -1,0 +1,124 @@
+# ==============================================================================
+# OpenDroid Robotics & Computer Vision Repository - .gitignore
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# ROS 1 & ROS 2 Build Artifacts & Logs
+# ------------------------------------------------------------------------------
+build/
+install/
+log/
+logs/
+devel/
+build_isolated/
+devel_isolated/
+colcon.meta
+CATKIN_IGNORE
+COLCON_IGNORE
+*.bag
+*.db3
+*.mcap
+
+# ------------------------------------------------------------------------------
+# Embedded Systems & Firmware Artifacts (ESP32 / STM32 / Arduino / PlatformIO)
+# ------------------------------------------------------------------------------
+*.hex
+*.bin
+*.elf
+*.map
+*.o
+*.obj
+*.a
+*.lib
+*.d
+.pio/
+.pioenvs/
+.piolibdeps/
+.clangd/
+*.orig
+
+# ------------------------------------------------------------------------------
+# C/C++ & CMake Compilation Artifacts
+# ------------------------------------------------------------------------------
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+*.gcda
+*.gcno
+*.gcov
+
+# ------------------------------------------------------------------------------
+# Python & Virtual Environments
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ------------------------------------------------------------------------------
+# Computer Vision & Deep Learning Large Weights / Datasets
+# ------------------------------------------------------------------------------
+# Large pre-trained model weights (>50MB) should be pulled via Git LFS or wget
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.weights
+dataset/
+data/
+
+# ------------------------------------------------------------------------------
+# Archives & Temporary Compression Files
+# ------------------------------------------------------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# ------------------------------------------------------------------------------
+# Gazebo & Isaac Sim Cache & Temp Logs
+# ------------------------------------------------------------------------------
+.gazebo/
+*.log
+*.pbtxt
+*.usd.bak
+
+# ------------------------------------------------------------------------------
+# IDEs & Operating System Artifacts
+# ------------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
