@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 OpenDroid: Autonomous Mobile Service Robot (AMR)
+# 🤖 OpenDroid: Autonomous Mobile Service Robot (AMR- Simulation Only)
 ### *Next-Generation Household Assistive Robot with 6-Wheel Differential Kinematics, ROS 2 Navigation, Closed-Loop Planetary Actuation & Edge Computer Vision*
 
 ![Project Banner](assets/banner.png)
